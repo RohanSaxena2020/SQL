@@ -22,10 +22,10 @@ WHERE fiscal_year=2020
 GROUP BY fiscal_quarter
 ORDER BY total_sold_quantity DESC;
 
-SELECT 
-	fiscal_quarter as fiscal_quarter_2020,
-    SUM(sold_quantity) as total_sold_quantity
-FROM fact_sales_monthly
-GROUP BY fiscal_quarter
-ORDER BY total_sold_quantity DESC;
+-- SELECT 
+-- 	fiscal_quarter as fiscal_quarter_2020,
+--     SUM(sold_quantity) as total_sold_quantity
+-- FROM fact_sales_monthly
+-- GROUP BY fiscal_quarter
+-- ORDER BY total_sold_quantity DESC;
 
